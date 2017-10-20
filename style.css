@@ -14,7 +14,7 @@ body{font:0.86em Verdana,Tahoma,Arial,sans-serif;line-height:1.4em;text-align:ce
 
 #content {font-size:0.9em;margin-right:15em;padding:1em 3em 3em}
 #content h2{margin:0 0 0.3em -0.9em;font-size:1.7em;font-weight:normal;letter-spacing:-1px;color:#222;}
-#content h3{margin:0.7em 0 0.3em -0.6em; font-size:1.4em; letter-spacing:-1px;color:#222;font-weight:normal;}
+#content h3{margin:0.7em 0 0.3em -0.6em; font-size:1.4em; letter-spacing:-1px;color:#265560;font-weight:bold;}
 #content a{color:#336699;font-weight:bold;text-decoration:none;}
 #content a:hover{color:#336699;text-decoration:underline;}
 #content img {padding:1px;margin-right:6px;border:0.1em solid #777}
