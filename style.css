@@ -18,6 +18,7 @@ body{font:0.86em Verdana,Tahoma,Arial,sans-serif;line-height:1.4em;text-align:ce
 #content a{color:#336699;font-weight:bold;text-decoration:none;}
 #content a:hover{color:#336699;text-decoration:underline;}
 #content img {padding:1px;margin-right:6px;border:0.1em solid #777}
+#content p{margin-bottom:1.5em}
 
 table {border:1px solid #336699;border-collapse:collapse}
 table th {background-color:#336699;border:1px solid #2F4A6C;color:#fff;padding:4px}
