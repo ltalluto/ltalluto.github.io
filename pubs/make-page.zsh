@@ -1,7 +1,9 @@
 #!/bin/zsh
 
+curl "https://raw.githubusercontent.com/ltalluto/lt-bibliography/refs/heads/main/pubs.bib?token=GHSAT0AAAAAACZFKS4GIADISHRRZOBQPUUAZZSE2IQ" > pubs.bib
+
 pandoc pubs.tex --from=latex --to=html  --wrap=preserve --citeproc \
-    --bibliography=lt-bibliography/pubs.bib \
+    --bibliography=pubs.bib \
     --output=pubs_body.html --csl=pubs.csl
 
 ./ref_par.py pubs_body.html > pubs_body2.html
